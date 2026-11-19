@@ -1,0 +1,11 @@
+﻿RAW_DATA_FOLDER/
+delete/
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+processed_data/gnn/
+processed_data/gnn_h64_d02_e30/
+processed_data/gnn_weighted/
+processed_data/graphs_weighted/
+processed_data/simple_baselines/
