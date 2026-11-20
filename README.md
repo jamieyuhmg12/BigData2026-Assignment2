@@ -127,6 +127,30 @@ week of 2026/09/27 – 10/04.
   [RelBench](https://relbench.stanford.edu) examples. The version with time encoding also
   tells the model how long before the prediction time each row happened.
 
+## Model Execution
+
+### Main Model Pipeline
+
+1. Build training data:
+   `python build_training_data.py`
+
+2. Build graph data:
+   `python build_graph_data.py`
+
+3. Train the GraphSAGE model:
+   `python train_gnn.py`
+
+4. Generate predictions:
+   `python predict.py`
+
+### Baseline Experiments
+
+1. Run simple baselines:
+   `python simple_baselines.py`
+
+2. Compare machine learning models:
+   `python compare_models.py`
+
 ## Data Source
 
 The data used in this assignment is sourced from [GH Archive](https://www.gharchive.org), a
